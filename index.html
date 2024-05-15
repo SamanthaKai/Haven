@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <title> Honey Haven Account</title>
         <link rel="stylesheet" href="HoneySignIn.css">
-        <link rel="icon" href="favicon.png" type="image/png">
+        <link rel="icon" href="file:///favicon.png" type="image/png">
     </head>
     <body>
         <div class="bigcont">
-            <form>               
+            <form action="Honey.php" method="post">               
                 <img src="favicon.png" alt="logo" class="logo"> 
                 <header>Log into Honey Account</header><br>
                 <div>
@@ -27,7 +27,9 @@
                     Password:<br>
                     <input type="password" placeholder="Enter Password" required>
                 </div>
-                <a href="HHHome.html">Log In</a>
+                <div class="btt">
+                    <button type="submit">Log In</button>
+                </div>
                 <label>
                     <input type="checkbox" name="remember">Remember me.
                 </label><br>
